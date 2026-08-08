@@ -2,6 +2,9 @@
     <h1><?= htmlspecialchars($user->login); ?></h1>
     <div class="counter"><?= htmlspecialchars($user->counter); ?></div>
     <button id="inc">Inc Counter</button>
+    <form method="post" action="/logout">
+        <button class="logout">Logout</button>
+    </form>
 </div>
 
 <style>
@@ -24,6 +27,11 @@
         font-size: 25px;
         color: red;
         text-align: center;
+    }
+
+    .logout {
+        background-color: red;
+        color: white;
     }
 </style>
 

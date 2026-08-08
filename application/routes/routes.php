@@ -5,5 +5,6 @@ return [
     "POST /reg" => [\App\Controllers\AuthenticationController::class, "register"],
     "GET /login" => [\App\Controllers\AuthenticationController::class, "loginFrom"],
     "POST /login" => [\App\Controllers\AuthenticationController::class, "login"],
+    "POST /logout" => [\App\Controllers\AuthenticationController::class, "logout"],
     "POST /inc" => [\App\Controllers\CounterController::class, "inc"],
 ];
