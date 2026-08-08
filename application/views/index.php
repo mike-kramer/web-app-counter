@@ -30,7 +30,7 @@
     }
 
     .logout {
-        background-color: red;
+        background-color: green;
         color: white;
     }
 </style>
