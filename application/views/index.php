@@ -23,6 +23,12 @@
         padding: 10px;
     }
 
+    #inc {
+        background: lightblue;
+        color: white;
+        font-weight: bold;
+    }
+
     .counter {
         font-size: 25px;
         color: red;
