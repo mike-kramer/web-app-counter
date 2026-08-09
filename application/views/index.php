@@ -27,8 +27,9 @@
     }
 
     #inc {
-        background: blue;
+        background-color: rgb(0, 0, 200);
         color: white;
+        font-weight: bold;
     }
 </style>
 
