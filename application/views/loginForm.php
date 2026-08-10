@@ -1,4 +1,5 @@
 <form method="post" action="/login">
+    <a href="/reg">Registration</a>
     <?php if (isset($msg)): ?>
         <div class="msg"><?= htmlspecialchars($msg); ?></div>
     <?php endif; ?>
