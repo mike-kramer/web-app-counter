@@ -28,10 +28,10 @@
         color: red;
         text-align: center;
     }
-
     #inc {
-        background: blue;
+        background: rgb(0, 0, 200);
         color: white;
+        font-weight: bold;
     }
 </style>
 
