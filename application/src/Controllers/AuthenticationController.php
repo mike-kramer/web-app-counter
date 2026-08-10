@@ -42,4 +42,10 @@ class AuthenticationController
             header("Location: /login");
         }
     }
+
+    public function logout()
+    {
+        session_destroy();
+        header("Location: /login");
+    }
 }

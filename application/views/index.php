@@ -2,6 +2,9 @@
     <h1><?= htmlspecialchars($user->login); ?></h1>
     <div class="counter"><?= htmlspecialchars($user->counter); ?></div>
     <button id="inc">Inc Counter</button>
+    <form action="/logout" method="post">
+        <button>Logout</button>
+    </form>
 </div>
 
 <style>
