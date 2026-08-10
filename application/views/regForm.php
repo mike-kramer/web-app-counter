@@ -1,4 +1,5 @@
 <form method="post" action="/reg">
+    <a href="/reg">Register</a>
     <input name="login" placeholder="login" />
     <input name="password" placeholder="password" />
     <button>Register</button>
