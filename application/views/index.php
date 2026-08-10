@@ -28,6 +28,11 @@
         color: red;
         text-align: center;
     }
+
+    #inc {
+        background: blue;
+        color: white;
+    }
 </style>
 
 <script>
