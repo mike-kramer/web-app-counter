@@ -6,4 +6,5 @@ return [
     "GET /login" => [\App\Controllers\AuthenticationController::class, "loginFrom"],
     "POST /login" => [\App\Controllers\AuthenticationController::class, "login"],
     "POST /inc" => [\App\Controllers\CounterController::class, "inc"],
+    "POST /logout" => [\App\Controllers\AuthenticationController::class, "logout"],
 ];
