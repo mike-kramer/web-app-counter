@@ -48,6 +48,11 @@ class User
         $this->counter += 1;
     }
 
+    public function resetCounter(): void
+    {
+        $this->counter = 0;
+    }
+
     public static function findById(int $id, bool $lock = false): self
     {
         $db = Db::getPdo();

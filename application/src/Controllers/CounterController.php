@@ -21,4 +21,19 @@ class CounterController
 
         echo json_encode(["counter" => $user->counter, ["a" => true]]);
     }
+
+    public static function reset()
+    {
+        if (!isset($_SESSION["userId"])) {
+            header("401 Not Authorized");
+            return;
+        }
+        Db::transaction(function () {
+            $user = User::findById($_SESSION["userId"], true);
+            $user->resetCounter();
+            $user->save();
+        });
+
+        header("Location: /");
+    }
 }

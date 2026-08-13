@@ -5,6 +5,9 @@
     <form action="/logout" method="post">
         <button>Logout</button>
     </form>
+    <form action='/reset-counter' method='post'>
+        <button>Reset</button>
+    </form>
 </div>
 
 <style>
